@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+    
+}
+.navbar ul li{
+    padding: 12px;
+    list-style: none;
+}
+.connexion{
+    background-color: #ef7431;
+    height: 100px;
+    color: white;
+   
+}
+.connexion p{
+    margin-left: 80%;
+    font-size: 1.8rem;
+    font-family: calibri;
+}
+.container{
+    background-color: #034f89;
+    height: 69vh;
+}
+.container img{
+    margin-left: 50%;
+}
+.Formulaire{
+    background-color: white;
+    width: 40%;
+    position: absolute; 
+    bottom: 5%;
+    height: 70vh;
+    margin-left:5% ;
+    border-radius: 4px;
+   
+
+}
+.Formulaire h1{
+    color: blue;
+}
