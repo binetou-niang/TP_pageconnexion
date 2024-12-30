@@ -1,0 +1,116 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6bb81;
+    height: 2vh;
+    padding: 80px 10%;
+    position: sticky;
+    font-family: sans-serif;
+    font-size: 20PX;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.menu .kilife{
+    font-family: verdana;
+    font-size: 20px;
+}
+.menu .kilife h1{
+    font-size: 2.REM;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    display: flex;
+    list-style: none;
+    padding: 15px
+    cursor: pointer;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.navbar{
+    background-color: #f6bb81;
+    height: 71vh;
+    width: 100%;
+    display: flex;
+}
+.navbar .container{
+    text-align: right;
+    padding: 80px;
+    font-size: 20px;
+    padding-right: 2px;
+    margin-left: 100%;
+}
+.container h1 h2{
+    font-size: 30px;
+    padding-top: 50px;
+    text-align: right;
+    
+}
+.formulaire{
+    background-color: #f6bb81;
+    width: 100%;
+    height: 100vh;
+    font-size: 25px;
+}
+.formulaire h1{
+    text-align: center;
+    margin-left: 5%;
+   
+    text-align: center;
+}
+.formulaire p{
+    text-align: center;
+    font-size: 22px;
+}
+.formulaire .informt{
+    text-align: right;
+    padding-right: 10%;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.informt input{
+    height: 40px;
+    width: 30%;
+    border: 4px solid black;
+}
+.informt textarea{
+    height: 20vh;
+    width: 60%;
+    border: 4px solid black;
+}
+.formulaire .wats{
+    background-color: black;
+    height: 8vh;
+    width: 40%;
+    color: white;
+    font-size: 25px;
+    text-align: right;
+    margin-left: 60%;
+}
+.wats p{
+    padding-left: 20px;
+    align-items: center;
+}
+.pied{
+    display: flex;
+    justify-content: space-between;
+    background-color: #292f2e;
+    color: #f6bb81;
+    height: 50vh;
+}
+.pied ul{
+    display: flex;
+}
+.pied li {
+    list-style: none;
+}
+.pied li a img{
+    height: 40px;
+    padding-top: 70%;
+    padding-left: 40%;
+   align-items: baseline;
+}

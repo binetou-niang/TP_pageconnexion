@@ -23,7 +23,7 @@
 }
 .container{
     background-color: #034f89;
-    height: 69vh;
+    height: 63vh;
 }
 .container img{
     margin-left: 50%;
@@ -40,5 +40,36 @@
 
 }
 .Formulaire h1{
-    color: blue;
+    color: #034f89;
+    margin-left: 30%;
+}
+.Formulaire p{
+    margin-left: 30%;
+    position: relative;
+    top: -20px;
+}
+.Formulaire .form input{
+    width: 80%;
+    height: 4vh;
+    margin: 10px;
+}
+.Formulaire h5{
+    margin-top: 25px;
+    color: #034f89;
+    position: absolute;
+    margin: 0%;
+}
+.Formulaire button{
+    margin-left: 80%;
+    color: white;
+    background-color: #034f89;
+}
+.Formulaire h6{
+    text-align: center;
+}
+.logo{
+    text-align: center;
+}
+.para{
+    margin-top: 15%;
 }
